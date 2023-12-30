@@ -1,0 +1,13 @@
+guests = ['John Mark','Robert','Jack']
+
+for guest in guests:
+    print("Welcome to my dinner party {}".format(guests))
+
+print()  
+print("{} can't make it to the party".format(guests[2]))
+
+guests.pop(2)
+guests.append("Matt Hart")
+
+for guest in guests:
+    print("Welcome to my dinner party {}".format(guests))
